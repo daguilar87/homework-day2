@@ -85,3 +85,51 @@ nav a:visited{
 *{
     font-family: 'Roboto', sans-serif;
 }
+.flexbox-item-date{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* .button{
+    background-color: darkgoldenrod;
+} */
+
+.date{
+    width: 45%;
+    background-color: rgba(196, 194, 194, 0.336);
+    margin-left: 520px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.flexbox-container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+
+}
+
+.flexbox-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.flexbox-item2{
+    width: 14%;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 150px;
+}
+
+.button{
+    color: white;
+    background-color: gold;
+    font-size: large;
+    height: 40px;
+    border-color: gold;
+}
+
